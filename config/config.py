@@ -1,6 +1,6 @@
-TOKEN = "OTY5ODUzMTcwNDk2OTkxMjUy.YmzcJg.UAAI-DuNp-7T75dizsi_-O00dwc"
-GUILD = 772414089438822420
-APP_ID = 969853170496991252
-STU_ID = 106956553743024128
+TOKEN = "token"
+GUILD = "main guild"
+APP_ID = "app id"
+STU_ID = "stus discord id"
 
 AUDIO_DIR = r'C:\Users\short\PycharmProjects\kappaStu\audio'
