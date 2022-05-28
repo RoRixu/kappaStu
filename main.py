@@ -21,6 +21,7 @@ class Bot(commands.Bot):
 
     async def setup_hook(self):
         await self.load_extension(f'cogs.Voice.voicecommands')
+        await self.load_extension(f'cogs.MiniGames.miniGames')
         await self.tree.sync(guild=discord.Object(id=config.GUILD))
         await self.tree.sync()
     async def on_ready(self):

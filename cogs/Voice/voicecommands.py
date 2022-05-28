@@ -112,4 +112,6 @@ class VoiceCommands(commands.Cog):
 
 
 async def setup(bot: commands.Bot) -> None:
-    await bot.add_cog(VoiceCommands(bot),guilds=[discord.Object(id=config.GUILD)])
+    print("Loaded voice commands.")
+    await bot.add_cog(VoiceCommands(bot))
+    await bot.tree.sync(guild=discord.Object(id=config.GUILD))
